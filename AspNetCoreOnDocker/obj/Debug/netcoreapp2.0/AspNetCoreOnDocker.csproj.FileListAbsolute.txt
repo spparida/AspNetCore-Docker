@@ -1,0 +1,11 @@
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/bin/Debug/netcoreapp2.0/AspNetCoreOnDocker.deps.json
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/bin/Debug/netcoreapp2.0/AspNetCoreOnDocker.runtimeconfig.json
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/bin/Debug/netcoreapp2.0/AspNetCoreOnDocker.runtimeconfig.dev.json
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/bin/Debug/netcoreapp2.0/AspNetCoreOnDocker.dll
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/bin/Debug/netcoreapp2.0/AspNetCoreOnDocker.pdb
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/obj/Debug/netcoreapp2.0/AspNetCoreOnDocker.csprojAssemblyReference.cache
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/obj/Debug/netcoreapp2.0/AspNetCoreOnDocker.csproj.CoreCompileInputs.cache
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/obj/Debug/netcoreapp2.0/AspNetCoreOnDocker.AssemblyInfoInputs.cache
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/obj/Debug/netcoreapp2.0/AspNetCoreOnDocker.AssemblyInfo.cs
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/obj/Debug/netcoreapp2.0/AspNetCoreOnDocker.dll
+/Users/discoadmin/Downloads/AspNetCoreOnDocker/AspNetCoreOnDocker/obj/Debug/netcoreapp2.0/AspNetCoreOnDocker.pdb
