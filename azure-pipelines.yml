@@ -17,7 +17,7 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 
 
-- task: cseo-sse.build-release-task.custom-build-release-task.cseo-api-publish@1
+- task: cseo-api-publish@1
   inputs:
     publishingType: 'SwaggerOrOasToApiCatalog'
     swaggerlocation: 'https://cseoapicatalog.azurewebsites.net/swagger/OpenAPI-3(2019-07-01)/swagger.json'
