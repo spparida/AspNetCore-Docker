@@ -16,16 +16,12 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 
-
+steps:
 - task: cseo-sse.build-release-task.custom-build-release-task.cseo-api-publish@1
   displayName: 'FROM APIM Test'
   inputs:
-    publishingType: SwaggerOrOasFromApimToApiCatalog
-    ConnectedServiceNameARM: 'Shared Services Engineering (Modern Engineering - Dev) (1dfd3453-8fcc-460e-8d87-142001d96ed4)'
-    ResourceGroupName: 'CSEO-APIM'
-    ApiPortalName: 'cseo-ppe'
-    targetapi: essentials
-    OpenApiVersionOnApim: OpenAPI2
+    publishingType: SwaggerOrOasToApiCatalog
+    swaggerlocation: 'https://cseoapicatalog.azurewebsites.net/swagger/OpenAPI-3(2019-07-01)/swagger.json'
     targetapiname: 'API Catalog Service'
     description: 'APIs for the CSEO API Catalog'
     serviceId: '043C1A28-9A4C-46BF-8A17-50B350D006D9'
@@ -37,5 +33,3 @@ steps:
     businessDocumentLink: 'https://aka.ms/cseoapicatalog'
     wikiLink: 'https://aka.ms/cseoapicatalog'
     ConnectedServiceNameGeneric: 'CSEO-APIM'
-
-    
