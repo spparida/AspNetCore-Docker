@@ -16,7 +16,6 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 
-steps:
 - task: cseo-sse.build-release-task.custom-build-release-task.cseo-api-publish@1
   displayName: 'FROM APIM Test'
   inputs:
