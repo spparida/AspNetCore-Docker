@@ -1,4 +1,17 @@
 # ASP.NET Core
+- task: cseo-api-publish@1
+  inputs:
+    publishingType: 'SwaggerOrOasToApiCatalog'
+    swaggerlocation: 'https://cseoapicatalog.azurewebsites.net/swagger/OpenAPI-3(2019-07-01)/swagger.json'
+    targetapiname: 'API Catalog Service'
+    description: 'APIs for the CSEO API Catalog'
+    serviceId: '043C1A28-9A4C-46BF-8A17-50B350D006D9'
+    teamsg: 'cseoapicateng@microsoft.com'
+    tags: 'CatalogManagement;PurchaseExperience'
+    icmLink: 'https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=QT51i3'
+    dataClassification: 'General'
+    supportAlias: 'cseoapicateng@microsoft.com'
+    ConnectedServiceNameGeneric: '05c649e3-4989-4a0b-a5be-5ddc55c331cf'
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
